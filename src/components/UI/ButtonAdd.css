@@ -1,0 +1,22 @@
+.add-button {
+  background-color: #8a2b06;
+  border-radius: 20px;
+  width: 99px;
+  height: 41px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: none;
+  cursor: pointer;
+}
+.add-button:hover {
+  background-color: #7e2a0a;
+}
+.add-button:active {
+  background-color: #993108;
+}
+.add-button:disabled {
+  background-color: #cac6c4;
+}
