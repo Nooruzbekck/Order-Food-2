@@ -1,5 +1,11 @@
+import InfoProduct from "./components/InfoProductCard/InfoProduct";
+
+
+
 function App() {
-  return <div>Order-Food</div>;
+  return <div>
+    <InfoProduct/>
+  </div>;
 }
 
 export default App;
