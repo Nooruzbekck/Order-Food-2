@@ -1,11 +1,5 @@
-import InfoProduct from "./components/InfoProductCard/InfoProduct";
-
-
-
 function App() {
-  return <div>
-    <InfoProduct/>
-  </div>;
+  return <div></div>;
 }
 
 export default App;
