@@ -1,11 +1,18 @@
-import React from 'react';
-import './AiButton.css'
+import React from "react";
+import "./AiButton.css";
 
- const AiButton = ({label, onClick, className}) => {
+const AiButton = ({
+  children,
+  onClick,
+  className,
+  variant = "contained",
+  ...props
+}) => {
+  const customClassName = variant === "outlined" ? "outlined" : "contained";
   return (
-    <div>
-    <button className={`custom-button ${className}`} onClick={onClick}> {label} </button>
-    </div>
+    <button className={customClassName} onClick={onClick} {...props}>
+      {children}
+    </button>
   );
-}
- export default AiButton;
+};
+export default AiButton;
