@@ -1,0 +1,15 @@
+
+.title_h1{
+  font-size: 18px;
+  font-weight: 600;
+}
+.description_p{
+  font-size: 16px;
+  font-family: italic;
+}
+.prise_p{
+  font-size: 20px;
+  font-weight: 700;
+  color: #AD5502;
+  
+}
