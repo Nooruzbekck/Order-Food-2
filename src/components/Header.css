@@ -1,62 +1,63 @@
 .header {
-    width: 100%;
-    height: 101px;
-    background-color: #8A2B06;
-    display: flex;
-    justify-content: space-around;
+  width: 100%;
+  height: 101px;
+  background-color: #8a2b06;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 120px;
 }
 
 .header > h1 {
-    color: #ffffff;
-    font-size: 38px;
-    font-weight: 600;
-    padding-top: 22px;
-    left: 0;
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: 600;
+  padding-top: 22px;
+  left: 0;
 }
 .button {
-    width: 249px;
-    height: 59px;
-    background-color: #5A1F08;
-    margin-top: 21px;
-    border-radius: 30px;
-    border: none;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding-left: 0px;
-    
+  width: 249px;
+  height: 59px;
+  background-color: #5a1f08;
+  margin-top: 21px;
+  border-radius: 30px;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-left: 0px;
+  cursor: pointer;
 }
 .icon-cart {
-    padding: 20px 20px 20px 0px;
+  padding: 20px 20px 20px 0px;
 }
 .button > div {
-    width: 51px;
-    height: 35px;
-    background-color: #8A2B06;
-    border-radius: 30px;
-    padding-top: 5px;
-    transition: 1;
+  width: 51px;
+  height: 35px;
+  background-color: #8a2b06;
+  border-radius: 30px;
+  padding-top: 5px;
+  transition: 1;
 }
 .button > div:hover {
-    transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
 }
 .button:active {
-    animation-name: button-animation;
-    transform: scale(1.05);
-    animation-duration: 300ms;
+  animation-name: button-animation;
+  transform: scale(1.05);
+  animation-duration: 300ms;
 }
 @keyframes button-animation {
-    from {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.05);
-    }
-    to {
-        transform: scale(1);
-    }
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  to {
+    transform: scale(1);
+  }
 }
