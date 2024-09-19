@@ -12,6 +12,12 @@
   gap: 20px;
   text-align: center;
   justify-content: center;
+  position: absolute ;
+  left: 200px;
+  top:260px
+  
+
+
 }
 
 .head {
