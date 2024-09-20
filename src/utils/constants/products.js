@@ -1,3 +1,5 @@
+
+
 export const products=[
   {
     id:"e1",
@@ -23,4 +25,76 @@ export const products=[
     description:"Healthy...and green...",
     prise:"19.99",
   },
+  {
+    id:"e4",
+    title:"Green Bowl",
+    description:"Healthy...and green...",
+    prise:"19.99",
+  },
+  {
+    id:"e4",
+    title:"Green Bowl",
+    description:"Healthy...and green...",
+    prise:"19.99",
+  },
+  {
+    id:"e4",
+    title:"Green Bowl",
+    description:"Healthy...and green...",
+    prise:"19.99",
+  },
+  {
+    id:"e4",
+    title:"Green Bowl",
+    description:"Healthy...and green...",
+    prise:"19.99",
+  },
+  {
+    id:"e4",
+    title:"Green Bowl",
+    description:"Healthy...and green...",
+    prise:"19.99",
+  },
+  {
+    id:"e4",
+    title:"Green Bowl",
+    description:"Healthy...and green...",
+    prise:"19.99",
+  },
+  {
+    id:"e4",
+    title:"Green Bowl",
+    description:"Healthy...and green...",
+    prise:"19.99",
+  },
+  {
+    id:"e4",
+    title:"Green Bowl",
+    description:"Healthy...and green...",
+    prise:"19.99",
+  },
+  {
+    id:"e4",
+    title:"Green Bowl",
+    description:"Healthy...and green...",
+    prise:"19.99",
+  },
+  {
+    id:"e4",
+    title:"Green Bowl",
+    description:"Healthy...and green...",
+    prise:"19.99",
+  },
+  {
+    id:"e4",
+    title:"Green Bowl",
+    description:"Healthy...and green...",
+    prise:"19.99",
+  },  {
+    id:"e4",
+    title:"Green Bowl",
+    description:"Healthy...and green...",
+    prise:"19.99",
+  },
+
 ];

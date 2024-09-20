@@ -1,16 +1,13 @@
-import React from 'react'
-import ProductsList from './ProductsList'
+import React from "react";
+import ProductsList from "./ProductsList";
+import "./ProductsList.css";
 
-const ProductsMain = () => {
+const ProductsMain = ({products}) => {
   return (
-    <div>
-      <ul>
-        <li>
-          <ProductsList/>
-        </li>
-      </ul>
+    <div className="container-main">
+      <ProductsList  products={products}/>
     </div>
-  )
-}
+  );
+};
 
-export default ProductsMain
+export default ProductsMain;
