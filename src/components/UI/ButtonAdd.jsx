@@ -1,4 +1,5 @@
 import "./ButtonAdd.css";
+import icon from "../../assets/icon/addIcon.svg";
 
 const ButtonAdd = ({ children, onClick, type, disabled, ...props }) => {
   return (
@@ -9,7 +10,7 @@ const ButtonAdd = ({ children, onClick, type, disabled, ...props }) => {
       {...props}
       disabled={disabled}
     >
-      {children}
+      <img src={icon} alt="" /> {children}
     </button>
   );
 };
