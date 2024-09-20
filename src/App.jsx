@@ -1,5 +1,10 @@
+import OrderList from "./components/Orders/OrderList";
+
+
 function App() {
-  return <div></div>;
+  return <div>
+    <OrderList />
+  </div>;
 }
 
 export default App;
