@@ -16,18 +16,17 @@
     padding-top: 10px;
 }
 .cart-quantity {
-    width: 46px;
-    height: 36px;
-    /* padding-top: 82px;
-    padding-left: 139px; */
     border-radius: 6px;
     border: 1px solid #D6D6D6;
     background-color: #fff;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    margin-left: 46px;
-    margin-top: 6px;
+    margin-top: 3px;
+    margin-right: 390px;
+    padding: 8px 8px 8px 8px;
+    height: 40px;
+    width: 256px;
 }
 .hr {
     width: 607px;

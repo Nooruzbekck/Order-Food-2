@@ -2,7 +2,8 @@ import React from 'react'
 import "./Order.css"
 import OrderList from './OrderList'
 
-const Order = () => {
+
+export const Order = () => {
   return (
     <div>
       <OrderList />
@@ -10,4 +11,5 @@ const Order = () => {
   )
 }
 
-export default Order
+
+

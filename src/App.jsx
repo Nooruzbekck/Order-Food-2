@@ -1,10 +1,12 @@
-import OrderList from "./components/Orders/OrderList";
+import { Order } from "./components/Orders/Order"
 
 
 function App() {
-  return <div>
-    <OrderList />
-  </div>;
+  return (
+    <div>
+      <Order />
+    </div>
+  );
 }
 
 export default App;

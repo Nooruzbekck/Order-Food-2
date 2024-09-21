@@ -1,0 +1,51 @@
+.btns {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+}
+.plus-button {
+  width: 48px;
+  height: 36px;
+  border-radius: 6px;
+  border: 1px solid #8a2b06;
+  font-size: 24px;
+  color: #8a2b06;
+  font-weight: 500;
+  position: relative;
+  bottom: 15px;
+}
+.plus-button:hover {
+  background-color: #8a2b06;
+  color: #fff;
+}
+.plus-button:active {
+  background-color: #993108;
+}
+.plus-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  border: 1px solid #cac6c4;
+}
+.minus-button {
+  width: 48px;
+  height: 36px;
+  font-size: 24px;
+  color: #8a2b06;
+  font-weight: 500;
+  border-radius: 6px;
+  border: 1px solid #8a2b06;
+  position: relative;
+  bottom: 15px;
+}
+.minus-button:hover {
+  background-color: #8a2b06;
+  color: #fff;
+}
+.minus-button:active {
+  background-color: #993108;
+}
+.minus-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    border: 1px solid #cac6c4;
+  }

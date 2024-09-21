@@ -1,6 +1,9 @@
 import React from 'react'
 import "./OrderList.css"
 import {Modal} from "../Modal.jsx"
+import AiButton from '../UI/AiButton/AiButton.jsx'
+import IconsButton from '../UI/IconsButton/IconsButton.jsx'
+
 
 const OrderList = () => {
     const productsInModal = [
@@ -26,6 +29,7 @@ const OrderList = () => {
                     <div className='div'>
                     <p className='cart-price'>{item.price}</p>
                     <button className='cart-quantity'>x1</button>
+                    <IconsButton/>
                     </div>
                     <hr className='hr'/>
                 </div>
@@ -33,6 +37,7 @@ const OrderList = () => {
             
             <div className='total-div'>
                 <h2>Total Amount</h2>
+                <AiButton />
             </div>
         </div>
         </Modal>
