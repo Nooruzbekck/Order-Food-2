@@ -1,6 +1,4 @@
-
-
-export const products=[
+export const Products = [
   {
     id:"e1",
     title:"Sushi",
@@ -25,76 +23,4 @@ export const products=[
     description:"Healthy...and green...",
     prise:"19.99",
   },
-  {
-    id:"e4",
-    title:"Green Bowl",
-    description:"Healthy...and green...",
-    prise:"19.99",
-  },
-  {
-    id:"e4",
-    title:"Green Bowl",
-    description:"Healthy...and green...",
-    prise:"19.99",
-  },
-  {
-    id:"e4",
-    title:"Green Bowl",
-    description:"Healthy...and green...",
-    prise:"19.99",
-  },
-  {
-    id:"e4",
-    title:"Green Bowl",
-    description:"Healthy...and green...",
-    prise:"19.99",
-  },
-  {
-    id:"e4",
-    title:"Green Bowl",
-    description:"Healthy...and green...",
-    prise:"19.99",
-  },
-  {
-    id:"e4",
-    title:"Green Bowl",
-    description:"Healthy...and green...",
-    prise:"19.99",
-  },
-  {
-    id:"e4",
-    title:"Green Bowl",
-    description:"Healthy...and green...",
-    prise:"19.99",
-  },
-  {
-    id:"e4",
-    title:"Green Bowl",
-    description:"Healthy...and green...",
-    prise:"19.99",
-  },
-  {
-    id:"e4",
-    title:"Green Bowl",
-    description:"Healthy...and green...",
-    prise:"19.99",
-  },
-  {
-    id:"e4",
-    title:"Green Bowl",
-    description:"Healthy...and green...",
-    prise:"19.99",
-  },
-  {
-    id:"e4",
-    title:"Green Bowl",
-    description:"Healthy...and green...",
-    prise:"19.99",
-  },  {
-    id:"e4",
-    title:"Green Bowl",
-    description:"Healthy...and green...",
-    prise:"19.99",
-  },
-
 ];

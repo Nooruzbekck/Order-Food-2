@@ -2,12 +2,10 @@ import React from "react";
 import ProductsList from "./ProductsList";
 import "./ProductsList.css";
 
-const ProductsMain = ({products}) => {
+export const ProductsMain = ({ Products }) => {
   return (
     <div className="container-main">
-      <ProductsList  products={products}/>
+      <ProductsList Products={Products} />
     </div>
   );
 };
-
-export default ProductsMain;
