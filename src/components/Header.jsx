@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import cart from "../assets/icon/cart.svg?react";
 
-const Header = () => {
+export const Header = () => {
   return (
     <div>
       <header className="header">
@@ -17,4 +17,3 @@ const Header = () => {
   );
 };
 
-export default Header;

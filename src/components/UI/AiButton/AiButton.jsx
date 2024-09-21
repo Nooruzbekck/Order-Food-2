@@ -1,18 +1,25 @@
 import React from "react";
 import "./AiButton.css";
 
-const AiButton = ({
-  children,
-  onClick,
-  className,
-  variant = "contained",
-  ...props
-}) => {
-  const customClassName = variant === "outlined" ? "outlined" : "contained";
+const AiButton = ({ label, onClick, disabled }) => {
+  const handleClose = () => {
+    console.log("Close button clicked");
+  };
+  const handleOrder = () => {
+    console.log("Order button clicked");
+  };
+
   return (
-    <button className={customClassName} onClick={onClick} {...props}>
-      {children}
-    </button>
+    <div>
+      <button onClick={onClick} disabled={disabled}>
+        {label}
+      </button>
+
+      <div className="button-container">
+        <button label="Close" onClick={handleClose} className="close-button">Close</button>
+        <button label="Order" onClick={handleOrder} className="order-button">Order</button>
+      </div>
+    </div>
   );
 };
 export default AiButton;

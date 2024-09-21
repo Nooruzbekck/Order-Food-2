@@ -1,11 +1,13 @@
 import React from "react";
 import ButtonAdd from "./UI/ButtonAdd";
 import Input from "./UI/Input";
+import { Products } from "../utils/constants/products";
+
 
 const ProductsList = ({ products }) => {
   return (
     <ul className="container-map">
-      {products.map((props) => (
+      {Products.map((props) => (
         <li key={props.id} className="products_list">
           <div>
             <h1 className="title_h1">{props.title}</h1>
