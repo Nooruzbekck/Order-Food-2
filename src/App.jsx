@@ -1,5 +1,12 @@
+import { IconsButton } from "./components/IconsButton.jsx";
+
 function App() {
-  return <div>Order-Food</div>;
+  return (
+    <div>
+      <IconsButton disabled={true}>+</IconsButton>
+      <IconsButton>-</IconsButton>
+    </div>
+  );
 }
 
 export default App;

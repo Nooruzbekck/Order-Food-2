@@ -1,0 +1,25 @@
+.custom-button {
+  padding: 10px 30px;
+  margin-right: 10px;
+  background-color: transparent;
+  color: rgb(69, 18, 18);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  border: 2px solid #8a2b06;
+}
+
+.custom-button:hover {
+  background-color: #9a340c;
+  color: white;
+}
+
+.custom-button:active {
+  background-color: #a7370a;
+}
+custom-button:disabled {
+  background-color: #ec1f1f; /* Серый цвет при disabled */
+  cursor: not-allowed;
+}
